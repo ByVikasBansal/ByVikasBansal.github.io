@@ -1,0 +1,81 @@
+<header class="gamePageHeader">
+	<div class="lifeLinesDiv">
+		<a ng-click="applyFifty()" href="javascript:void(0)" id="fiftyLeft"><img class="lifelineAnimate pulse" src="images/5050.png"></a>
+		<a  href="javascript:void(0)" id="fiftyUsed"><img src="images/no5050.png"></a>
+		<a ng-click="applyAudience()" id="audienceLeft" href="javascript:void(0)"><img class="lifelineAnimate pulse" src="images/audience.png"></a>
+		<a id="audienceUsed"href="javascript:void(0)"><img src="images/noaudience.png"></a>
+	</diV>
+</header>
+
+<div class="points animatedPoints bounceInDown">
+	<label>Points: {{pointsEarned}}</label>
+
+</div>
+
+<div class="gamePageContent">
+	<div class="watermark">
+		<img src="images/watermark.png">
+	</div>
+	<div class="welcomeNpointsTree left">
+		<label class="sidePaneHeader">WELCOME</label>
+		<div class="sidePaneContent">
+			<label class="playerName">{{pName}}</label>
+			<img class="leftpaneAnimation" src="images/leftPaneLogo.png">
+		</div>
+	</div>
+	<div class="middleBox left">
+		<canvas id="audPoll" width="430" height="330">
+		</canvas>
+		<div class="rightOrWrong left">
+			<img id="rightWrong"src="">
+		</div>
+
+		<div class="nextOrStop left">
+			<img ng-click="nextQues()" id="nextQues" src="images/nextQuestionBtn.png">
+			<img ng-click="gameOver()" id="gameOver" src="images/pointsEarned.png">
+		</div>
+
+	</div>
+
+	
+
+	<div class="welcomeNpointsTree right">
+		<label class="sidePaneHeader">POINTS TREE</label>
+		<div class="sidePaneContent">
+			<ul class="pointsTree">
+				<li ng-repeat="point in pointsTree">
+					<label ng-class="{pointsBg: point.points==pointsEarned}" class="pointsTbl">{{point.lvl}} : {{point.points}}</label>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="questionNoptions">
+		
+		<div class="question flipInX">
+			<label class="questionLbl">{{(counter+1+".") + " "+questions[quesIndex[counter]].ques}}</label>
+		</div>
+		<div class="options">
+			<div class="optsAnC bounceInLeft">
+				<button ng-click="optionSelected($event)" ng-disabled="isDisabled" class="optionTxt">A. {{questions[quesIndex[counter]].options[ques[0]].content}}</button>
+			</div>
+			<div class="optsAnC bounceInLeft">
+				<button ng-click="optionSelected($event)" ng-disabled="isDisabled" class="optionTxt">C. {{questions[quesIndex[counter]].options[ques[2]].content}}</button>
+			</div>
+		</div>
+		<div class="options">
+			<div class="optsBnD bounceInRight">
+				<button ng-click="optionSelected($event)" ng-disabled="isDisabled" class="optionTxt">B. {{questions[quesIndex[counter]].options[ques[1]].content}}</button>
+			</div>
+			<div class="optsBnD bounceInRight">
+				<button ng-click="optionSelected($event)" ng-disabled="isDisabled" class="optionTxt">D. {{questions[quesIndex[counter]].options[ques[3]].content}}</button>
+			</div>
+		</div>
+
+		<div class="lockUnlock">
+			<button id="quit" ng-click="gameOver()">Quit</button>
+			<button id="lock" ng-model="isDisabled" ng-click="locked()">Lock</button>
+		</div>
+	</div>
+
+
+</div>

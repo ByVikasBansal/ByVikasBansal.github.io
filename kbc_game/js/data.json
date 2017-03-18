@@ -1,0 +1,336 @@
+{
+    "points": [
+        {
+            "lvl": 10,
+            "points": 1000000
+        },
+        {
+            "lvl": 9,
+            "points": 900000
+        },
+        {
+            "lvl": 8,
+            "points": 800000
+        },
+        {
+            "lvl": 7,
+            "points": 700000
+        },
+        {
+            "lvl": 6,
+            "points": 600000
+        },
+        {
+            "lvl": 5,
+            "points": 500000
+        },
+        {
+            "lvl": 4,
+            "points": 400000
+        },
+        {
+            "lvl": 3,
+            "points": 300000
+        },
+        {
+            "lvl": 2,
+            "points": 200000
+        },
+        {
+            "lvl": 1,
+            "points": 100000
+        }
+    ],
+    "questions": [
+        {
+            "ques": "How do I add scrolling text to my page?",
+            "options": [
+                {
+                    "fifty": "false",
+                    "content": "Strong",
+                    "correct": "false",
+                    "audience": 20
+                },
+                {
+                    "fifty": "true",
+                    "content": "Marquee",
+                    "correct": "true",
+                    "audience": 60
+                },
+                {
+                    "fifty": "false",
+                    "content": "Blockquote",
+                    "correct": "false",
+                    "audience": 10
+                },
+                {
+                    "fifty": "true",
+                    "content": "Em",
+                    "correct": "false",
+                    "audience": 10
+                }
+            ]
+        },
+        {
+            "ques": "Which tag defines the caption for a fieldset element?",
+            "options": [
+                {
+                    "fifty": "false",
+                    "content": "optgroup",
+                    "correct": "false",
+                    "audience": 30
+                },
+                {
+                    "fifty": "true",
+                    "content": "caption",
+                    "correct": "false",
+                    "audience": 10
+                },
+                {
+                    "fifty": "false",
+                    "content": "label",
+                    "correct": "false",
+                    "audience": 10
+                },
+                {
+                    "fifty": "true",
+                    "content": "legend",
+                    "correct": "true",
+                    "audience": 50
+                }
+            ]
+        },
+        {
+            "ques": "Which HTML tag is used to define a internal style sheet?",
+            "options": [
+                {
+                    "fifty": "true",
+                    "content": "style",
+                    "correct": "true",
+                    "audience": 70
+                },
+                {
+                    "fifty": "false",
+                    "content": "CSS",
+                    "correct": "false",
+                    "audience": 15
+                },
+                {
+                    "fifty": "true",
+                    "content": "script",
+                    "correct": "false",
+                    "audience": 10
+                },
+                {
+                    "fifty": "false",
+                    "content": "link",
+                    "correct": "false",
+                    "audience": 5
+                }
+            ]
+        },
+        {
+            "ques": "Which is the correct CSS syntax?",
+            "options": [
+                {
+                    "fifty": "false",
+                    "content": "{body ;color: black}",
+                    "correct": "false",
+                    "audience": 30
+                },
+                {
+                    "fifty": "true",
+                    "content": "body{color: black}",
+                    "correct": "true",
+                    "audience": 40
+                },
+                {
+                    "fifty": "true",
+                    "content": "body: color=black",
+                    "correct": "false",
+                    "audience": 10
+                },
+                {
+                    "fifty": "false",
+                    "content": "{body: color=black(body}",
+                    "correct": "false",
+                    "audience": 10
+                }
+            ]
+        },
+        {
+            "ques": "How do you write “Hello World” in an alertbox?",
+            "options": [
+                {
+                    "fifty": "false",
+                    "content": "alertbox(“hello world”)",
+                    "correct": "false",
+                    "audience": 20
+                },
+                {
+                    "fifty": "true",
+                    "content": "alertbox=”Hello World”",
+                    "correct": "false",
+                    "audience": 20
+                },
+                {
+                    "fifty": "true",
+                    "content": "alert(“Hello World”)",
+                    "correct": "true",
+                    "audience": 50
+                },
+                {
+                    "fifty": "false",
+                    "content": "msgbox(“hello World”)",
+                    "correct": "false",
+                    "audience": 10
+                }
+            ]
+        },
+        {
+            "ques": "How can you add an comment in a javascript?",
+            "options": [
+                {
+                    "fifty": "false",
+                    "content": "!- - This is a comment-- ",
+                    "correct": "false",
+                    "audience": 10
+                },
+                {
+                    "fifty": "true",
+                    "content": "//This is a comment",
+                    "correct": "true",
+                    "audience": 40
+                },
+                {
+                    "fifty": "true",
+                    "content": "This is a comment",
+                    "correct": "false",
+                    "audience": 10
+                },
+                {
+                    "fifty": "false",
+                    "content": "/* This is a comment*/",
+                    "correct": "false",
+                    "audience": 40
+                }
+            ]
+        },
+        {
+            "ques": "What does CSS stand for?",
+            "options": [
+                {
+                    "fifty": "true",
+                    "content": "Cascading style sheet",
+                    "correct": "true",
+                    "audience": 60
+                },
+                {
+                    "fifty": "false",
+                    "content": "Computer style sheet",
+                    "correct": "false",
+                    "audience": 5
+                },
+                {
+                    "fifty": "true",
+                    "content": "Colorful style sheet",
+                    "correct": "false",
+                    "audience": 5
+                },
+                {
+                    "fifty": "false",
+                    "content": "Creative style sheet",
+                    "correct": "false",
+                    "audience": 30
+                }
+            ]
+        },
+        {
+            "ques": "Which HTML attribute is used to define inline styles?",
+            "options": [
+                {
+                    "fifty": "false",
+                    "content": "font",
+                    "correct": "false",
+                    "audience": 20
+                },
+                {
+                    "fifty": "true",
+                    "content": "styles",
+                    "correct": "false",
+                    "audience": 15
+                },
+                {
+                    "fifty": "false",
+                    "content": "class",
+                    "correct": "false",
+                    "audience": 20
+                },
+                {
+                    "fifty": "true",
+                    "content": "style",
+                    "correct": "true",
+                    "audience": 45
+                }
+            ]
+        },
+        {
+            "ques": "Which CSS property controls the text size?",
+            "options": [
+                {
+                    "fifty": "false",
+                    "content": "text-style",
+                    "correct": "false",
+                    "audience": 0
+                },
+                {
+                    "fifty": "true",
+                    "content": "font-style",
+                    "correct": "false",
+                    "audience": 15
+                },
+                {
+                    "fifty": "false",
+                    "content": "text-size",
+                    "correct": "false",
+                    "audience": 0
+                },
+                {
+                    "fifty": "true",
+                    "content": "font-size",
+                    "correct": "true",
+                    "audience": 85
+                }
+            ]
+        },
+        {
+            "ques": "What does HTML stand for?",
+            "options": [
+                {
+                    "fifty": "false",
+                    "content": "Hyper Table MarkUp Language",
+                    "correct": "false",
+                    "audience": 10
+                },
+                {
+                    "fifty": "true",
+                    "content": "Hyper Text MarkOf Language",
+                    "correct": "false",
+                    "audience": 10
+                },
+                {
+                    "fifty": "true",
+                    "content": "Hyper Text MarkUp Language",
+                    "correct": "true",
+                    "audience": 75
+                },
+                {
+                    "fifty": "false",
+                    "content": "Hetero Text MarkUp Language",
+                    "correct": "false",
+                    "audience": 5
+                }
+            ]
+        }
+    ]
+}
