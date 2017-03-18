@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Request Your Holiday or Customise it...</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+<link rel="shortcut icon" href="http://fastrip.info/images/ico/favicon.ico">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <form id="booking-form" class="booking-form" name="form1" method="post" action="script.php">
+            <div align="center"><img class="logo" src="img/logo.png" title="Fastrip - Your Next Best Offer" alt="Fastrip"></div>
+            <div class="h1">Request Your Holiday or Customise it...</div>
+            <div id="form-message" class="message hide">
+                Thank you for your enquiry! Click Here to Go Back to <a href="http://fastrip.info/">Home</a> 
+            </div>
+            <div id="form-content">
+
+                <div class="group">
+                    <label for="date-from">From</label>
+                    <div class="addon-right">
+                        <input id="date-from" name="date-from" class="form-control" type="text">
+                        <i class="fa fa-calendar"></i>
+                    </div>
+                </div>
+                <div class="group">
+                    <label for="date-to">To</label>
+                    <div class="addon-right">
+                        <input id="date-to" name="date-to" class="form-control" type="text">
+                        <i class="fa fa-calendar"></i>
+                    </div>
+                </div>
+<div class="group">
+                    <label for="package-name">Package Name</label>
+                    <div>
+                        <select id="package-name" name="package-name" class="form-control">
+				<option value="Customise A New Package">Customise A New Package</option>
+				<option value="Charismatic Kashmir">Charismatic Kashmir</option>
+                            <option value="My Thailand">My Thailand</option>
+				<option value="European Bonanza">European Bonanza</option>
+                            <option value="Delights of Himachal">Delights of Himachal</option>
+				<option value="Malaysia Singapore">Malaysia Singapore</option>
+                            <option value="Swiss Paris Delight">Swiss Paris Delight</option>
+				<option value="Gateways to Goa">Gateways to Goa</option>
+                            <option value="Ya Ya Kenya">Ya Ya Kenya</option>
+				<option value="Twin Australia">Twin Australia</option>
+                            <option value="Alaska Cruise">Alaska Cruise</option>
+				<option value="Classical Greece">Classical Greece</option>
+                            <option value="Vietnam Cruise">Vietnam Cruise</option>
+				<option value="Italian Escape">Italian Escape</option>
+                            <option value="My Paris">My Paris</option>
+				<option value="Exotic Seychelles">Exotic Seychelles</option>
+                            <option value="Taste of Turkey">Taste of Turkey</option>
+				<option value="NewZealand Delights">NewZealand Delights</option>
+                            <option value="Mauritus Adventures">Mauritus Adventures</option>
+				<option value="Malana Village Trek">Malana Village Trek</option>
+                            <option value="Southafrican Gateways">Southafrican Gateways</option>
+				<option value="Dubai Super Savers">Dubai Super Savers</option>
+                            <option value="Phuket Special">Phuket Special</option>
+				<option value="Maldives Delight">Maldives Delight</option>
+				<option value="Canadian Vistas">Canadian Vistas</option>
+                            <option value="The Heritage Rajasthan">The Heritage Rajasthan</option>
+				<option value="Kerala Super Savers">Kerala Super Savers</option>
+                            <option value="Best of United States">Best of United States</option>
+				<option value="Cairo & Cruise (Egypt)">Cairo & Cruise (Egypt)</option>
+                            <option value="Divine Mathura & Vrindavan">Divine Mathura & Vrindavan</option>
+				<option value="Down the Ganges (Varanasi)">Down the Ganges (Varanasi)</option>
+                            <option value="Vaishnodevi Holy Darshan">Vaishnodevi Holy Darshan</option>
+				<option value="Holy Dwarka Darshan">Holy Dwarka Darshan</option>
+                            <option value="Holy Tirupati Darshan">Holy Tirupati Darshan</option>
+				<option value="Haridwar & Rishikesh">Haridwar & Rishikesh</option>
+                            <option value="A Spiritual Sojourn to TN">A Spiritual Sojourn to TN</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="group">
+                    <label for="hotel-type">Hotel type</label>
+                    <div>
+                        <select id="hotel-type" name="hotel-type" class="form-control">
+                            <option value="Standard">Standard</option>
+                            <option value="Deluxe">Deluxe</option>
+                            <option value="Luxury">Luxury</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="group">
+                    <label for="transportation-fare">Transportation Fare</label>
+                    <div>
+                        <select id="transportation-fare" name="transportation-fare" class="form-control">
+                            <option value="Without Transportation Fare">Without Transportation Fare</option>
+				<option value="With Air fare">With Air fare</option>
+                            <option value="without Air fare">Without Air fare</option>
+				<option value="With Train fare">With Train fare</option>
+                            <option value="without Train fare">Without Train fare</option>
+                        </select>
+                    </div>
+                </div>
+
+		<div class="group">
+                    <label for="meal-plan">Meal Plan</label>
+                    <div>
+                        <select id="meal-plan" name="meal-plan" class="form-control">
+                            <option value="EPAI">EPAI</option>
+				<option value="CPAI">CPAI</option>
+                            <option value="MAPI">MAPI</option>
+				<option value="APAI">APAI</option>
+                        </select>
+                    </div>
+                </div>
+
+             
+                
+                
+                <div class="group">
+                    <label for="adults">Adults</label>
+                    <div>
+                        <select id="adults" name="adults" class="form-control">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="group">
+                    <label for="children">Children</label>
+                    <div>
+                        <select id="children" name="children" class="form-control">
+                            <option value="-">-</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="group">
+                    <label for="name">Name</label>
+                    <div><input id="name" name="name" class="form-control" type="text" placeholder="Name"></div>
+                </div>
+		<div class="group">
+                    <label for="country">Country Name</label>
+                    <div><input id="country" name="country" class="form-control" type="text" placeholder="Country Name"></div>
+                </div>
+		<div class="group">
+                    <label for="departure-city">Departure City</label>
+                    <div><input id="departure-city" name="departure-city" class="form-control" type="text" placeholder="City from where you'll start your journey"></div>
+                </div>
+                <div class="group">
+                    <label for="email">Email</label>
+                    <div><input id="email" name="email" class="form-control" type="email" placeholder="Email"></div>
+                </div>
+                <div class="group">
+                    <label for="phone">Phone</label>
+                    <div><input id="phone" name="phone" class="form-control" type="text" placeholder="Phone"></div>
+                </div>
+		<div class="group">
+                    <label for="details">Details of your plan</label>
+                    <div><textarea id="details" name="details" class="form-control" cols="" rows="5" placeholder="Details (If Customising a new package, skip otherwise)"></textarea></div>
+                </div>
+                <div class="group">
+                    <label for="special-requirements">Special requirements</label>
+                    <div><textarea id="special-requirements" name="special-requirements" class="form-control" cols="" rows="5" placeholder="Special requirements"></textarea></div>
+                </div>
+                <div class="group submit">
+                    <label class="empty"></label>
+                    <div><input name="submit" type="submit" value="Submit"/></div>
+                </div>
+            </div>
+            <div id="form-loading" class="hide"><i class="fa fa-circle-o-notch fa-spin"></i></div>
+        </form>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>     
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
