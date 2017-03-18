@@ -1,0 +1,296 @@
+.clr
+{
+	clear:both;
+}
+body
+    	{
+    		background-image: url(../images/bodybg.png);
+    		padding:0px;
+    		margin:0px auto;
+    		width:100%;
+    		height:100%;
+    		background-size: 100% 100%;
+    		background-repeat: no-repeat;
+
+    	}
+
+.wrapper
+		{
+		    width: 45%;
+		    height: 448px;
+		    margin: 35px auto;
+		    background-image: url(../images/logo.png);
+		    background-repeat: no-repeat;
+
+		}
+#sound
+		{
+			border: 3px solid #669900;
+		    border-radius: 50px;
+		    width: 50px;
+		    height: 50px;
+		    margin-left: 64px;
+		    margin-top: 60px;
+		    float: left;
+		}
+
+#sound #song
+		{
+			margin-left: 11px;
+    		margin-top: 12px;
+		}
+#sound #mute
+		{
+			margin-left: 11px;
+    		margin-top: 12px;
+    		visibility: hidden;
+		}		
+		
+#name
+		{
+			color: white;
+			font-weight: bold;
+			font-size: 16px;
+			margin: 0px 10px 0px 0px;
+			float: right;
+		}
+#uname
+		{
+			border: none;
+			margin-right: 50px;
+			border-bottom: 3px solid #ff496f; 
+			background-color: transparent;
+			color: white;
+			outline-style: none;
+			text-indent: 10px;
+			font-size: 16px;
+			float: right;
+
+		}
+#uname:focus
+		{
+			border-bottom: 3px solid #669900; 
+		}
+#error
+		{
+			color: skyblue;
+    		margin: 8px 0px 0px 610px;
+    		visibility: hidden;
+		}
+#icons
+		{
+			width: 320px;
+		    height: 90px;
+		    margin: 0px 50px 0px 0px;
+		    float: right;
+    
+		}				
+#tick
+		{
+			border: 3px solid #ff496f;
+		    border-radius: 50px;
+		    width: 50px;
+		    height: 50px;
+		    margin-left: 60px;
+		    float: left;
+		}
+#tick img
+		{
+			margin-left: 8px;
+    		margin-top: 7px;
+		}		
+#tick:hover
+		{
+			border: 3px solid red;
+		}
+
+#boat
+		{
+			border: 3px solid #ff496f;
+		    border-radius: 50px;
+		    width: 50px;
+		    height: 50px;
+		    float: left;
+		    margin-left: 20px;
+		}
+#boat img
+		{
+			margin-left: 5px;
+    		margin-top: 12px;
+		}		
+#boat:hover
+		{
+			border: 3px solid red;
+		}	
+
+#star
+		{
+			border: 3px solid #ff496f;
+		    border-radius: 50px;
+		    width: 50px;
+		    height: 50px;
+		    margin-left: 60px;
+		    float: left;
+		}
+#star img
+		{
+			margin-left: 11px;
+    		margin-top: 12px;
+		}		
+#star:hover
+		{
+			border: 3px solid red;
+
+		}		
+#text1
+		{
+			color: white;
+			font-size: 14px;
+			font-weight: bold;
+			display: inline-block;
+			margin-top: 10px;
+			margin-left: 10px;
+		} 
+#text2
+		{
+			color: white;
+			font-size: 14px;
+			font-weight: bold;
+			display: inline-block;
+			margin-top: 10px;
+			margin-left: 25px;
+		}
+#text3
+		{
+			color: white;
+			font-size: 14px;
+			font-weight: bold;
+			display: inline-block;
+			margin-top: 10px;
+			margin-left: 40px;
+		}
+		
+#help
+		{
+			
+			top: 0;
+			left: 0;
+			position: absolute;
+			height: 600px;
+			width: 72%;
+			margin: 10px 0px 0px 143px;
+			/*for chrome*/
+			background-image: -webkit-gradient(
+  			linear, left top, left bottom, from(rgba(50,50,50,0.8)), 
+  			to(rgba(80,80,80,0.2)), color-stop(.5,#333333)
+			);
+			/*for mozilla*/
+			background-image: -moz-linear-gradient(
+			rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 95%
+			);
+			/*for IE */
+			-ms-filter: progid:DXImageTransform.Microsoft.gradient(
+  			startColorstr=#550000FF, endColorstr=#550000FF
+			);
+			filter: progid:DXImageTransform.Microsoft.gradient(
+  			startColorstr=#550000FF, endColorstr=#550000FF
+			);
+			visibility: hidden;
+		}		
+
+#h1
+		{
+			font-size: 26px;
+		    color: white;
+		    font-weight: bold;
+		    margin: 65px 0px 0px 50px;
+		}
+#h2
+		{
+			font-size: 20px;
+		    color: white;
+		    font-weight: bold;
+		    margin: 25px 0px 0px 50px;
+		}
+#h3
+		{
+			font-size: 20px;
+		    color: white;
+		    font-weight: bold;
+		    margin: 80px 0px 0px 50px;
+		}
+#h4
+		{
+			font-size: 20px;
+		    color: white;
+		    font-weight: bold;
+		    margin: 20px 0px 0px 50px;
+		}	
+#h5
+		{
+			display: inline-block;
+			font-size: 20px;
+		    color: white;
+		    font-weight: bold;
+		    margin: 80px 0px 0px 50px;
+		    text-decoration: none;
+		}	
+#h6
+		{
+
+			margin-left: 20px;
+			color: skyblue;
+		}
+#h6:hover
+		{
+
+			color: #ccffcc;
+		}										
+
+#score
+		{
+			
+			top: 0;
+			left: 0;
+			position: absolute;
+			height: 650px;
+			width: 61.5%;
+			margin: 12px 0px 0px 150px;
+			background-image: url(../images/notepad.png);
+			background-size: 100% 100%;
+			overflow-y: scroll;
+			visibility: hidden;
+		}
+#high
+		{
+			font-family: cursive;
+		    font-size: 24px;
+		    margin: 70px 0px 0px 65px;
+		    color: blue;
+
+		}		   
+
+#p1
+		{
+			font-family: Segoe UI Semibold;
+		    font-size: 20px;
+		    margin: 48px 0px 0px 65px;
+		    color: red;
+		}
+
+#btn	{
+			width: 120px;
+		    height: 40px;
+		    font-weight: bold;
+		    border: none;
+		    background-color: #0095FF;
+		    margin: 105px 0px 0px 65px;
+		}		
+
+#btn:hover	
+		{
+			
+		    background-color: tomato;
+		   
+		}
+			

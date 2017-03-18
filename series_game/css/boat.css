@@ -1,0 +1,236 @@
+ html
+		{
+		 	background-image: url(../images/bg.png);
+	
+		 	
+		 	
+		}
+ #wrapper
+		{
+		 	width:962px;
+		 	margin:0 auto;
+		 	position: relative;
+  			
+
+		}
+
+#boat
+		{
+		    background: url("../images/boat3.png") no-repeat;
+		    width: 34px;
+		    height: 67px;
+		    position: absolute;
+		    top: 580px;
+			left: 910px;
+		   
+			
+		}
+#canvas
+		{
+			visibility: hidden;
+		}		
+#container
+		{
+			
+			margin: 0px auto;
+			margin-top: 20px;
+			width: 962px;
+			height: 610px;
+		}
+#world
+		 {
+		 	background-image: url(../images/world.png);
+			width:962px;
+			height:610px;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			
+
+		 }		
+.clr
+		{
+			clear: both;	
+		}
+#icon11
+		{
+			position: absolute;
+			margin-left: 90px;
+			transition: all .2s ease-in-out;
+			
+		}
+#icon22
+		{
+			position: absolute;
+			margin-left: 290px;
+			transition: all .2s ease-in-out;
+
+		}		
+#icon33
+		{
+			position: absolute;
+			margin-left: 500px;
+			transition: all .2s ease-in-out;
+		}
+#icon44
+		{
+			position: absolute;
+			margin-left: 730px;
+			transition: all .2s ease-in-out;
+		}
+
+#help
+		{
+			
+			top: 0;
+		    left: 0;
+		    position: absolute;
+		    height: 612px;
+		    width: 95.5%;
+		    margin: 20px 0px 0px 23px;
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100&amp;1+0,0.61+30 */
+			background: -moz-linear-gradient(top,  rgba(169,3,41,1) 0%, rgba(151,2,36,0.61) 30%, rgba(143,2,34,0.61) 44%, rgba(109,0,25,0.61) 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(169,3,41,1)), color-stop(30%,rgba(151,2,36,0.61)), color-stop(44%,rgba(143,2,34,0.61)), color-stop(100%,rgba(109,0,25,0.61))); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  rgba(169,3,41,1) 0%,rgba(151,2,36,0.61) 30%,rgba(143,2,34,0.61) 44%,rgba(109,0,25,0.61) 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top,  rgba(169,3,41,1) 0%,rgba(151,2,36,0.61) 30%,rgba(143,2,34,0.61) 44%,rgba(109,0,25,0.61) 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top,  rgba(169,3,41,1) 0%,rgba(151,2,36,0.61) 30%,rgba(143,2,34,0.61) 44%,rgba(109,0,25,0.61) 100%); /* IE10+ */
+			background: linear-gradient(to bottom,  rgba(169,3,41,1) 0%,rgba(151,2,36,0.61) 30%,rgba(143,2,34,0.61) 44%,rgba(109,0,25,0.61) 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#9c6d0019',GradientType=0 ); /* IE6-9 */
+
+			visibility: hidden;
+			
+		}		
+
+#h1
+		{
+			font-size: 26px;
+		    color: white;
+		    font-weight: bold;
+		    margin: 65px 0px 0px 50px;
+		}
+#h2
+		{
+			font-size: 20px;
+		    color: white;
+		    font-weight: bold;
+		    margin: 25px 0px 0px 50px;
+		}
+#h3
+		{
+			font-size: 20px;
+		    color: white;
+		    font-weight: bold;
+		    margin: 80px 0px 0px 50px;
+		}
+#h4
+		{
+			font-size: 20px;
+		    color: white;
+		    font-weight: bold;
+		    margin: 20px 0px 0px 50px;
+		}	
+#h5
+		{
+			display: inline-block;
+			font-size: 20px;
+		    color: black;
+		    font-weight: bold;
+		    margin: 80px 0px 0px 50px;
+		    text-decoration: none;
+		}	
+
+				
+#icon11:hover, #icon22:hover, #icon33:hover, #icon44:hover
+		{
+			transform: scale(2.2);
+			
+		}
+
+.hidden
+		{
+			display: none;
+		}
+#icon1
+		{
+			position: absolute;
+			margin-left: 30px;
+			transition: all .2s ease-in-out;
+			
+		}
+#options
+		{
+			position: absolute;
+		    bottom: 50px;
+		    right: 190px;
+		    border: 8px solid rgba(255, 255, 255, .5);
+		    width: 120px;
+		    height: 200px;
+		    background-color: transparent;
+		    display: none;
+		    border-radius: 10px;
+		    
+		}
+#boatselect
+		{
+			margin: 15px auto;
+			margin-left: 25px;
+			transition: all .2s ease-in-out;
+
+		}
+#boatselect:hover
+		{
+			transform: scale(1.5);
+		}
+
+#score
+		{
+			
+			top: 0;
+			left: 0;
+			position: absolute;
+			height: 650px;
+			width: 61.5%;
+			margin: 12px 0px 0px 150px;
+			background-image: url(../images/notepad.png);
+			background-size: 100% 100%;
+			overflow-y: scroll;
+			visibility: hidden;
+		}
+#high
+		{
+			font-family: cursive;
+		    font-size: 24px;
+		    margin: 70px 0px 0px 65px;
+		    color: blue;
+
+		}		   
+
+#p1
+		{
+			font-family: Segoe UI Semibold;
+		    font-size: 20px;
+		    margin: 48px 0px 0px 65px;
+		    color: red;
+		}
+
+#btn	{
+			width: 120px;
+		    height: 40px;
+		    font-weight: bold;
+		    border: none;
+		    background-color: #0095FF;
+		    margin: 105px 0px 0px 65px;
+		}		
+
+#btn:hover	
+		{
+			
+		    background-color: tomato;
+		   
+		}
+.wrap
+		{
+			width:962px;
+		 	margin:0 auto;
+		 	position: relative;
+		}

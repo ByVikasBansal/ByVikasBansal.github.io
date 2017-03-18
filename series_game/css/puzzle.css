@@ -1,0 +1,161 @@
+.wrapperPuzzlePage
+{
+	width: 962px;
+	height: 610px;
+	margin: 0 auto;
+	background: url("../images/points.png") no-repeat;
+  position: relative;
+  margin-top: 20px;
+}
+
+.left
+{
+	width: 552px;
+	min-height: 610px;
+	float:left;
+}
+
+.left
+{
+  position: relative;
+}
+.left div
+{
+  width: 200px;
+  height: 12.8%;
+  text-align: center;
+  color: #fff;
+}
+.one
+{
+  position: absolute;
+  top: 65px;
+  left: 38%;
+}
+
+
+.two
+{
+  position: absolute;
+  top: 92px;
+  left: 59%;
+}
+
+.three
+{
+  position: absolute;
+  top: 156px;
+  left: 72%;
+}
+
+.four
+{
+  position: absolute;
+  top: 244px;
+  left: 77%;
+}
+.five
+{
+  position: absolute;
+  top: 338px;
+  left: 77%;
+}
+.six
+{
+  position: absolute;
+  top: 418px;
+  left: 70%;
+}
+.seven
+{
+  position: absolute;
+  top: 475px;
+  left: 55%;
+}
+.eight
+{
+  position: absolute;
+  top: 475px;
+  left: 19%;
+}
+.nine
+{
+  position: absolute;
+  top: 415px;
+  left: 5%;
+}
+.ten
+{
+  position: absolute;
+  top: 330px;
+  left: -4%;
+}
+.eleven
+{
+  position: absolute;
+  top: 240px;
+  left: -3%;
+}
+.twelve
+{
+  position: absolute;
+  top: 159px;
+  left: 3%;
+}
+.thirteen
+{
+  position: absolute;
+  top: 91px;
+  left: 18%;
+}
+.right
+{
+  width:400px;
+	float: left;
+}
+
+.checkimg
+{
+  position: absolute;
+  top: 23px;
+  right: 185px;
+}
+
+.contains
+{
+  float:left;
+  margin: 150px 0px 0 80px;
+}
+
+.contains p
+{
+  width:180px;
+  color: white;
+  margin: 10px 0px 18px 0;
+  padding-left: 40px;
+}  
+
+
+.left p
+{
+  text-transform: capitalize;
+  color: #EA3D3D;
+  font-size: 24px; 
+}
+
+.timer
+{
+  margin-top: 284px;
+  width: 152px;
+  height: 90px;
+  left: 231px;
+  position: absolute;
+}
+.rating_star
+{
+  position: absolute;
+  margin-top: 355px;
+  width: 207px;
+  height: 90px;
+  left: 202px;
+}

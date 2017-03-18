@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Series Game</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/boat.css">
+		<link rel="stylesheet" type="text/css" href="css/puzzle.css">
+
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		
+
+
+<!-- wrapper class for boat movement and continents -->
+
+	</head>
+	<body>
+		<div id ="wrapper">
+			<div id = "container"><canvas id="canvas" width="962" height="610"></canvas></div>
+			<div id ="world"></div>
+			<div id="boat"></div>
+		</div>
+		
+		<div class = "clr"></div>
+		
+
+	<div class = "wrap">	
+		<a id = "icon11" href="javascript:void(0);" onclick = "gohome()"><img src="images/home.png"></a>
+		<a id = "icon22" href="javascript:void(0);" onclick = "highscore()"><img src="images/star.png"></a>
+		<a id = "icon33" href="javascript:void(0);" onclick = "ruleshow()"><img src="images/tick1.png"></a>
+		<a id = "icon44" href="javascript:void(0);" onclick = "showOptions()"><img src="images/boat.png"></a>
+
+<!-- div for changing boat ui -->
+		
+		<div id = "options">
+			<img  id = "boatselect" src="images/yellow_boat.png" onclick = "changeimg(1)">
+			<img  id = "boatselect" src="images/boat_wood.png" onclick = "changeimg(2)">
+			<img  id = "boatselect" src="images/boat_new.png" onclick = "changeimg(3)">
+		</div>
+	</div>	
+
+<!-- div for displaying rules -->
+
+		<div id = "help">
+			<p id = "h1">WELCOME</p>
+			<p id = "h2">Instructions for the game are as follows - </p>
+			<p id = "h3">1. Use arrow keys to move your boat.</p>
+			<p id = "h4">2. Reach the continents to unlock a puzzle.</p>
+			<p id = "h4">3. Complete puzzles within 5 mins to clear stage.</p>
+			<p id = "h4">4. Clear all stages to complete the game in the least time.</p>
+			<button id = "h5" onclick = "rulehide()">Return To Game</button>
+		</div>	
+
+
+
+
+
+<!-- div for displaying the highest scores -->
+
+		<div id = "score">
+			<p id = "high">Highest Score</p>
+		</div>
+		
+
+<!-- div for puzzle and timer which is kept hidden -->
+
+
+		<div class="puzzlePage hidden">
+		<div class="wrapperPuzzlePage"> <!--wrapper starts-->
+		<div class="left"><!--left starts-->
+		</div><!--left ends-->
+		<div class="right"><!--right starts-->
+		<ul id="contains" class="contains"></ul>
+		</div>
+		<div class = "clr"></div>
+		<a id = "icon1" href="javascript:void(0);" onclick = "gohome()"><img src="images/home.png"></a>
+		</div>
+		</div>
+
+
+		<script src="js/boat.js"></script>
+		<script src="js/puzzle.js"></script>
+	</body>
+</html>

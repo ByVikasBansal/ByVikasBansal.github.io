@@ -1,0 +1,84 @@
+{
+	"africa":
+	{
+		"animal":"Leopard",
+		"population":"1.11 billion",
+		"mainReligion":"Christianity",
+		"famousTouristPlace":"Pyramids",
+		"highestPoint":"Mt.Kilimanjaro",
+		"populationRank":"3",
+		"famousPersonality":"Nelson Mandela",
+		"famousMovie":"The Mummy Returns",
+		"Famous":"Diamonds",
+		"countries":"57",
+		"sport":"Football",
+		"food": "Pap en vleis",
+		"largestCountry": "Algeria"
+
+	},
+	"europe":
+	{
+		"animal":"White Wolf",
+		"population":"741.2 million",
+		"mainReligion":"Christianity",
+		"famousTouristPlace": "Eiffel Tower",
+		"highestPoint":"Mt.Elbrus",
+		"populationRank":"2",
+		"famousPersonality":"David Beckham",
+		"famousMovie":"Euro Trip",
+		"Famous":"Football Teams",
+		"countries":"50",
+		"sport":"Football",
+		"food": "French-Toast",
+		"largestCountry":"Russia"
+	},
+	"asia":
+	{
+        "animal":"Panda",
+		"population":"4.35 billion",
+		"mainReligion":"Buddhism",
+		"famousTouristPlace":"Taj Mahal",
+		"highestPoint":"Mt.Everest",
+		"populationRank":"1",
+		"famousPersonality":"Rabindranath Tagore",
+		"famousMovie":"Shaolin Soccer",
+		"Famous":"Hill Stations",
+		"countries":"48",
+		"sport":"Cricket",
+		"food": "Rice",
+		"largestCountry":"China"
+	},
+	"america":
+	{
+        "animal":"American Moose",
+		"population":"954 million",
+		"mainReligion":"Christianity",
+		"famousTouristPlace":"Niagara Falls",
+		"highestPoint":"Mt.Denali",
+		"populationRank":"4",
+		"famousPersonality":"Che Guevara",
+		"famousMovie":"Pirates of the Caribbean",
+		"Famous":"Beaches",
+		"countries":"35",
+		"sport":"Rugby",
+		"food": "Cheese Burger",
+		"largestCountry":"Canada"
+	},
+	"australia":
+	{
+	
+	    "animal":"Kangaroos",
+        "population":"38 million",
+		"mainReligion":"Christianity",
+		"famousTouristPlace":"Melbourne City Centre",
+		"highestPoint":"Mt.Kosciouszko",
+		"populationRank":"56",
+		"famousPersonality":"Don Bradman",
+		"famousMovie":"The Girl from Tomorrow",
+		"Famous":"Cricket Team",
+		"countries":"2",
+		"sport":"Cricket",
+		"food": "Tasmanian Ocean Trout",
+		"largestCountry":"Australia"
+	}	
+}

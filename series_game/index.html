@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Index page</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		
+	</head>
+	<body>
+
+		<!-- wrapper class stars here -->
+
+		<div class = "wrapper">
+		</div>
+		<div class = "clr"></div>
+		<!-- sound icon -->
+
+		<a id = "sound" href="javascript:void(0);" onclick = "try1(1)"><img id = "song" src="images/sound.png"><img id = "mute" src="images/sound1.png">
+		</a>
+		<!-- right side icons and text box -->
+	
+		<input type="text" id="uname">
+		<span id = "name">ENTER YOUR NAME</span>
+		
+		<p id = "error">Name cannot Be Left Blank / Altealst 3 characters required<p>
+			<div id = "icons">
+				<a id = "boat" href="javascript:void(0);"><img src="images/boat.png"></a>
+				<a id = "star" href="javascript:void(0);" onclick = "highscore()"><img src="images/star.png"></a>
+				<a id = "tick" href="javascript:void(0);" onclick = "ruleshow()"><img src="images/tick.png"></a>
+				<div class = "clr"></div>
+				<span id = "text1">NEW GAME</span>
+				<span id = "text2">HIGH SCORES</span>
+				<span id = "text3">RULES</span>
+			</div>
+			
+
+		<!-- hidden div for rules triggred by key press event	 -->
+
+		<div id = "help">
+			<p id = "h1">WELCOME</p>
+			<p id = "h2">Instructions for the game are as follows - </p>
+			<p id = "h3">1. Use arrow keys (↑ ↓ → ←) to move your boat.</p>
+			<p id = "h4">2. Reach the continents to unlock a puzzle.</p>
+			<p id = "h4">3. Complete puzzles within 5 mins to clear stage.</p>
+			<p id = "h4">4. Clear all stages to complete the game in the least time.</p>
+
+
+
+			<a id = "h5" href="javascript:void(0);" onclick = "rulehide()"><span id = "h6">Go back to the home screen.</span></a>
+
+		</div>	
+
+
+
+		<!-- hidden div for highest score triggred by key press event	 -->
+
+		<div id = "score">
+			<p id = "high">Highest Score</p>
+		</div>
+
+
+	</body>
+</html>
